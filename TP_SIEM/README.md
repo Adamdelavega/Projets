@@ -23,3 +23,4 @@ L'adresse des machines au sein de ces réseaux :
 | `syslog.centos7 `  | x               | x               | `192.168.3.1/24`|
 | `elk.centos7`      | x               | `192.168.2.1/24`| x               |
 | `client1.vpcs`     | `192.168.1.1/24`| x               | x               |
+
