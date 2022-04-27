@@ -11,16 +11,20 @@ Les réseaux et leurs VLANs associés :
 
 | Réseau    | Adresse         | VLAN associé  |
 |-----------|-----------------|-------------- |
-| `client` | `192.168.56.0/24` | 10            |
-| `admin`  | `192.168.57.0/24` | 20            |
-| `server` | `192.168.59.0/24` | 30            |
+| `client` | `192.168.56.0/24` | 10           |
+| `admin`  | `192.168.57.0/24` | 20           |
+| `server` | `192.168.59.0/24` | 30           |
 
 L'adresse des machines au sein de ces réseaux :
 
-| Node               | `clients`       | `admins`        | `servers`       |
-|--------------------|-----------------|-----------------|-----------------|
-| `web.centos7`      | x               | x               | `192.168.59.2/24`|
-| `syslog.centos7 `  | x               | x               | `192.168.59.1/24`|
-| `elk.centos7`      | x               | `192.168.57.1/24`| x               |
-| `client1.vpcs`     | `192.168.56.1/24`| x               | x               |
+| Node               | `clients`        | `admins`         | `servers`        |
+|--------------------|------------------|------------------|------------------|
+| `web.centos7`      | x                | x                | `192.168.59.2/24`|
+| `syslog.centos7 `  | x                | x                | `192.168.59.1/24`|
+| `elk.centos7`      | x                | `192.168.57.1/24`| x                |
+| `client1.vpcs`     | `192.168.56.1/24`| x                | x                |
+
+
+## CONFIGURATION DES EQUIPEMENTS RESEAUX
+**SWITCHS**
 
