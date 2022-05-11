@@ -267,7 +267,7 @@ google.com resolved to 142.250.179.78
 **SERVEURS CENTOS 7**
 - J'ai dus trouver une alternative rapide pour avancer sans gns3 l'adressage IP à donc changé
 
-| Node             | `clients`        | `admins`          | `servers`        |
+| Node             |                  |                   |                  |
 |------------------|------------------|-------------------|------------------|
 | `server_2`       | x                | x                 | `192.168.60.7/24`|
 | `server_1`       | x                | x                 | `192.168.60.8/24`|
@@ -344,7 +344,3 @@ local5.* /var/log/cisco.log
 - A cause du temps passé à essayer de débug mon gns3 seul ou avec Léo je n'ai pas eu le temps de mettre en place cette partie à temps
 - Néanmoin mon projet continue dans le cadre d'un autre cours et il sera complet et s'appuira sur les bases de celui-ci
 
-## CONCLUSION
-- Je n'ai malheurement pas pu terminer mon projet à temps
-- C'est due à une erreur bête de ma part, ayant accidentelement supprimé mon projet une semaine avant les oraux
-- Le fameux "rm -rf", J'en tire une bonne leçon, et une meilleur efficacité de travail
