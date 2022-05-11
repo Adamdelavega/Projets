@@ -346,5 +346,5 @@ local5.* /var/log/cisco.log
 
 ## CONCLUSION
 - Je n'ai malheurement pas pu terminer mon projet à temps
-- C'est dûe à une erreur bête de ma part, ayant accidentelement supprimé mon projet une semaine avant les oraux
+- C'est due à une erreur bête de ma part, ayant accidentelement supprimé mon projet une semaine avant les oraux
 - Le fameux "rm -rf", J'en tire une bonne leçon, et une meilleur efficacité de travail
